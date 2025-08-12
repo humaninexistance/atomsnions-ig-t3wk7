@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>i did not listen in science class</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="script" href="script.js">
+    </head>
+    <body>
+        <div class="inputs">
+            <div> 
+                protons: <input type="number" class= "ibox" id= "protons">
+            </div>
+            <div> 
+                neutrons: <input type="number" class= "ibox" id= "neutrons">
+            </div>
+            <div> 
+                electrons: <input type="number" class= "ibox" id= "electrons">
+            </div>
+        </div>
+        <div class="buttons">
+            <button onclick=atom()>atom or ion?</button>
+            
+            <button onclick=charge()>net charge</button>
+        </div>
+        <div class="results">
+            atom or ion: <p id="atomorion"></p>
+            net charge: <p id="charge"></p>
+            atomic mass: <p id="mass"></p>
+        </div>
+    </body>
+</html>

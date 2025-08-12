@@ -1,2 +1,8 @@
 # atomsnions-ig-t3wk7
-a lil demo of atoms and ions !! (just charges and subatomic particles n stuff) more in readme !!
+a lil demo of atoms and ions !! (just charges and subatomic particles n stuff)
+
+**FUNCTIONALITIES**
+* atom or ion?
+* net charge
+coming soon...
+* which element?

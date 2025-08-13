@@ -1,3 +1,7 @@
 div{
     padding: 10px;
 }
+
+.atomion, .netcharge, .atomicmass{
+    display: inline-block;
+}

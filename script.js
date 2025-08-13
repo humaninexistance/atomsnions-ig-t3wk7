@@ -5,5 +5,17 @@ function charge(){
 
 function atom(){
   var charge = Number(document.getElementById("proton").value)-Number(document.getElementById("neutron").value);
-  if (local)var charge = 0
+  if ((local)var charge = 0){
+    var atomorion = atom;
+  } else {
+    if ((local)var charge > 0){
+      var atomorion = positive ion;
+    } else {
+      if((local)var charge < 0){
+        var atomorion = negative ion;
+      } else {
+        var atomorion = "i don't know, ask sanika";
+      }
+    }
+  }
 }

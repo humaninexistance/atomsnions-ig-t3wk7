@@ -1,6 +1,6 @@
 function charge(){
   var charge = Number(document.getElementById("proton").value)-Number(document.getElementById("electron").value);
-  console.log(charge);
+  console.log("the net charge of the atom/ion is " + charge);
 }
 
 function atom(){
@@ -18,9 +18,10 @@ function atom(){
       }
     }
   }
+  console.log("this is an " + atomorion);
 }
 
 function mass(){
   var mass = Number(document.getElementById("proton").value)+Number(document.getElementById("neutron").value);
-  console.log(mass);
+  console.log("the mass of this atom or ion is " + mass);
 }

@@ -35,3 +35,8 @@ function mass() {
   console.log("the mass of this atom or ion is " + atomicMass);
   document.getElementById("mass").innerText = atomicMass;
 }
+
+function element() {
+  const protons = Number(document.getElementById("protons").value);
+  
+}

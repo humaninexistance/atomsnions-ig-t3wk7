@@ -4,5 +4,6 @@ a lil demo of atoms and ions !! (just charges and subatomic particles n stuff)
 **FUNCTIONALITIES**
 * atom or ion?
 * net charge
-coming soon...
+
+**coming soon...**
 * which element?

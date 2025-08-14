@@ -37,6 +37,64 @@ function mass() {
 }
 
 function element() {
-  const protons = Number(document.getElementById("protons").value);
-  
-}
+  const proton = Number(document.getElementById("proton").value);
+  let elements = [
+    null,
+    "Hydrogen",
+    "Helium",
+    "Lithium",
+    "Beryllium",
+    "Boron",
+    "Carbon",
+    "Nitrogen",
+    "Oxygen",
+    "Fluorine",
+    "Neon",
+    "Sodium",
+    "Magnesium",
+    "Aluminium",
+    "Silicon",
+    "Phosphorus",
+    "Sulfur",
+    "Chlorine",
+    "Argon",
+    "Potassium",
+    "Calcium",
+    "Scandium",
+    "Titanium",
+    "Vanadium",
+    "Chromium",
+    "Maganese",
+    "Iron",
+    "Cobalt",
+    "Nickel",
+    "Copper",
+    "Zinc",
+    "Gallium",
+    "Germanium",
+    "Arsenic",
+    "Selenium",
+    "Bromine",
+    "Krypton",
+    "Rubidium",
+    "Strontium",
+    "Yttrium",
+    "Zirconium",
+    "Niobium",
+    "Molybdenum",
+    "Technetium",
+    "Ruthenium",
+    "Rhodium",
+    "Palladium",
+    "Silver",
+    "Cadmium",
+    "Indium",
+    "Tin",
+    "Antimony",
+    "Tellurium",
+    "Iodine",
+    "Xenon",
+    
+  ];
+
+  var element = elements[proton] || "I don't know, ask Sanika";

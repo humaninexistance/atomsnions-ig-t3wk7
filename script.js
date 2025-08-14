@@ -94,7 +94,20 @@ function element() {
     "Tellurium",
     "Iodine",
     "Xenon",
-    
+    "Caesium",
+    "Barium",
+    "Lanthanum",
+    "Hafnium",
+    "Tantalum",
+    "Tungsten",
+    "Rhenium",
+    "Osmium",
+    "Iridium",
+    "Platinum",
+    "Gold",
+    "Mercury",
+    "Thallium",
+    "Lead",
   ];
 
   var element = elements[proton] || "I don't know, ask Sanika";

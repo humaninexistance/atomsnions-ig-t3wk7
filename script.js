@@ -37,7 +37,7 @@ function mass() {
 }
 
 function element() {
-  const proton = Number(document.getElementById("proton").value);
+  const proton = Number(document.getElementById("protons").value);
   let elements = [
     null,
     "Hydrogen",
@@ -162,6 +162,6 @@ function element() {
 
   var element = elements[proton] || "I don't know, ask Sanika";
 
-  console.log("this is a " + element + atomorion);
+  console.log("this is a " + element + "atom/ion");
   document.getElementById("element").innerText = element;
 }

@@ -161,3 +161,7 @@ function element() {
   ];
 
   var element = elements[proton] || "I don't know, ask Sanika";
+
+  console.log("this is a " + element + atomorion);
+  document.getElementById("element").innerText = element;
+}

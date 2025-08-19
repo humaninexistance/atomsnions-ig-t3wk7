@@ -5,6 +5,7 @@ a lil demo of atoms and ions !! (just charges and subatomic particles n stuff)
 * atom or ion?
 * net charge
 * atomic mass
+* which element?
 
 **coming soon...**
-* which element?
+* molecules

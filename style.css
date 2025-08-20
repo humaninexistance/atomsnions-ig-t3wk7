@@ -1,3 +1,13 @@
+.dark {
+  background-color: #111;
+  color: white;
+}
+
+.dark input, .dark button {
+  background-color: #333;
+  color: white;
+}
+
 div{
     padding: 10px;
 }

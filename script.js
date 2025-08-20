@@ -1,7 +1,18 @@
 console.log("script loaded!");
 
 function darkmode() {
-  document.body.classList.toggle("dark");
+  function toggleDarkMode() {
+  const body = document.body;
+  const button = document.getElementById("darkmodebutton");
+
+  body.classList.toggle("dark");
+
+  if (body.classList.contains("dark")) {
+    button.innerText = "we need light to see things it's basic science 💔💔";
+  } else {
+    button.innerText = "plunge into darkness";
+  }
+}
 }
 
 function charge() {

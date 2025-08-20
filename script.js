@@ -12,7 +12,6 @@ function darkmode() {
     button.innerText = "plunge into darkness";
   }
 }
-}
 
 function charge() {
   const protons = Number(document.getElementById("protons").value);

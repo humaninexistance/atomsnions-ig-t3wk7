@@ -1,7 +1,6 @@
 console.log("script loaded!");
 
 function darkmode() {
-  function toggleDarkMode() {
   const body = document.body;
   const button = document.getElementById("darkmodebutton");
 

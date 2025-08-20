@@ -1,5 +1,9 @@
 console.log("script loaded!");
 
+function darkmode() {
+  document.body.classList.toggle("dark");
+}
+
 function charge() {
   const protons = Number(document.getElementById("protons").value);
   const electrons = Number(document.getElementById("electrons").value);

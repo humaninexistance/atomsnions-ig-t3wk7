@@ -34,7 +34,7 @@ function atom() {
   } else if (netCharge < 0) {
     atomorion = "Negative ion";
   } else {
-    atomorion = "I don't know, ask Sanika";
+    atomorion = "I don't know, go to support";
   }
 
   console.log("this is an " + atomorion);
@@ -173,7 +173,7 @@ function element() {
     "Oganesson",
   ];
 
-  var element = elements[proton] || "I don't know, ask Sanika";
+  var element = elements[proton] || "I don't know, go to support";
 
   console.log("this is a " + element + "atom/ion");
   document.getElementById("element").innerText = element;

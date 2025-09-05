@@ -1,5 +1,5 @@
 # atomsnions-ig-t3wk7
-a lil demo of atoms and ions !! (just charges and subatomic particles n stuff)
+a lil thing about atoms and ions !! (just charges and subatomic particles n stuff)
 
 **FUNCTIONALITIES**
 * atom or ion?
@@ -8,4 +8,4 @@ a lil demo of atoms and ions !! (just charges and subatomic particles n stuff)
 * which element?
 
 **coming soon...**
-* molecules
+* i dont know maybe suggest somethign
